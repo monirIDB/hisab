@@ -109,8 +109,12 @@
                     <input type="password" class="form-control" placeholder="Password">
                 </div>
                 <button type="submit" class="btn btn-black">Login</button>
-                <button type="submit" class="btn btn-secondary">Register</button>
+
             </form>
+            <g:form action="create" controller="registration">
+                <button type="submit" class="btn btn-secondary">Register</button>
+            </g:form>
+
         </div>
     </div>
 </div>
